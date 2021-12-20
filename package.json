@@ -2,7 +2,7 @@
   "name": "my-employee",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://abanob219.github.io/Final-project",
+  "homepage": "http://abanob219.github.io/Final-project/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -19,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "nmp run build",
-    "deploy": "gh-pages -d bulid"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
